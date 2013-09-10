@@ -1,4 +1,4 @@
-;; -*- mode: emacs-lisp -*-
+;; -*- mode: emacs-lisp -*- my name
 ;; Simple .emacs configuration
 
 ;; ---------------------
