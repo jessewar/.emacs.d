@@ -108,7 +108,13 @@
 
 ;; give hints with M-x Command-Name
 (custom-set-variables
- '(icomplete-mode t))
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(icomplete-mode t)
+ '(org-agenda-files (quote ("~/todo.org" "~/org/to-do-list.org")))
+ '(org-deadline-warning-days 14))
 
 ;; have emacs ask for "y or n" rather than "yes or no"
 (fset 'yes-or-no-p 'y-or-n-p)
@@ -164,13 +170,7 @@ Including indent-buffer, which should not be called automatically on save."
 (setq org-log-done t)
 
 ;; custom set variables
-(custom-set-variables
- ;; custom-set-variables was added by Custom.
- ;; If you edit it by hand, you could mess it up, so be careful.
- ;; Your init file should contain only one such instance.
- ;; If there is more than one, they won't work right.
- '(org-agenda-files (quote ("~/org/to-do-list.org")))
- '(org-deadline-warning-days 14))
+
 
 
 ;; Use webjump and add Stack Overflow to it (google and wiki added by default)
